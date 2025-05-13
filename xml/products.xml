@@ -1,0 +1,38 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfProduct>
+  <Product>
+    <ID>2660</ID>
+    <productName>PinkShirt</productName>
+    <category>Clothing</category>
+    <price>60</price>
+    <quantityInStock>20</quantityInStock>
+  </Product>
+  <Product>
+    <ID>2710</ID>
+    <productName>Hairband</productName>
+    <category>Accessorize</category>
+    <price>30</price>
+    <quantityInStock>30</quantityInStock>
+  </Product>
+  <Product>
+    <ID>2760</ID>
+    <productName>Booster</productName>
+    <category>CarEquipment</category>
+    <price>200</price>
+    <quantityInStock>7</quantityInStock>
+  </Product>
+  <Product>
+    <ID>2810</ID>
+    <productName>DonaStroller</productName>
+    <category>Stroller</category>
+    <price>4000</price>
+    <quantityInStock>2</quantityInStock>
+  </Product>
+  <Product>
+    <ID>2860</ID>
+    <productName>buttel</productName>
+    <category>Equipment</category>
+    <price>40</price>
+    <quantityInStock>20</quantityInStock>
+  </Product>
+</ArrayOfProduct>

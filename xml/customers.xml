@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfCustomer xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Customer>
+    <ID>215282583</ID>
+    <customerName>Sari</customerName>
+    <address>Tel-Aviv</address>
+    <phone>0583214067</phone>
+  </Customer>
+  <Customer>
+    <ID>215282584</ID>
+    <customerName>Yael</customerName>
+    <address>Modi'in</address>
+    <phone>0583275017</phone>
+  </Customer>
+  <Customer>
+    <ID>215282458</ID>
+    <customerName>Moshe</customerName>
+    <address>Heifa</address>
+    <phone>0583214057</phone>
+  </Customer>
+  <Customer>
+    <ID>215287893</ID>
+    <customerName>Yair</customerName>
+    <address>Jerusalem</address>
+    <phone>0583212757</phone>
+  </Customer>
+  <Customer>
+    <ID>215282583</ID>
+    <customerName>Michal</customerName>
+    <address>Tel-Aviv</address>
+    <phone>0583217047</phone>
+  </Customer>
+  <Customer>
+    <ID>0</ID>
+    <customerName>rachel</customerName>
+    <address>avney nezer</address>
+    <phone>0548675462</phone>
+  </Customer>
+</ArrayOfCustomer>

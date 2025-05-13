@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ArrayOfSale xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <Sale>
+    <ID>2850</ID>
+    <productID>250</productID>
+    <requiredQuantity>1</requiredQuantity>
+    <totalPrice>3850</totalPrice>
+    <requiredClub>false</requiredClub>
+    <startDate>2025-04-24T21:43:38.9373815+03:00</startDate>
+    <endDate>2025-04-25T21:43:38.937385+03:00</endDate>
+  </Sale>
+  <Sale>
+    <ID>2950</ID>
+    <productID>2760</productID>
+    <requiredQuantity>5</requiredQuantity>
+    <totalPrice>34.5</totalPrice>
+    <requiredClub>true</requiredClub>
+    <startDate>2025-05-05T13:45:49.446</startDate>
+    <endDate>2025-05-15T13:45:49.442</endDate>
+  </Sale>
+  <Sale>
+    <ID>3000</ID>
+    <productID>2860</productID>
+    <requiredQuantity>10</requiredQuantity>
+    <totalPrice>500</totalPrice>
+    <requiredClub>false</requiredClub>
+    <startDate>2025-05-04T13:45:49.446</startDate>
+    <endDate>2025-05-15T13:45:49.442</endDate>
+  </Sale>
+  <Sale>
+    <ID>3050</ID>
+    <productID>2810</productID>
+    <requiredQuantity>1</requiredQuantity>
+    <totalPrice>40</totalPrice>
+    <requiredClub>true</requiredClub>
+    <startDate>2025-05-11T13:52:15.87</startDate>
+    <endDate>2025-05-31T13:52:15.867</endDate>
+  </Sale>
+</ArrayOfSale>
