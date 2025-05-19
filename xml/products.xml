@@ -1,13 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ArrayOfProduct>
   <Product>
-    <ID>2660</ID>
-    <productName>PinkShirt</productName>
-    <category>Clothing</category>
-    <price>60</price>
-    <quantityInStock>20</quantityInStock>
-  </Product>
-  <Product>
     <ID>2710</ID>
     <productName>Hairband</productName>
     <category>Accessorize</category>

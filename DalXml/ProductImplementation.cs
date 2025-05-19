@@ -30,12 +30,26 @@ internal class ProductImplementation : IProduct
         return p.ID;
     }
 
+    //public void Delete(int id)
+    //{
+    //    XElement productElement = XElement.Load(PATH);
+    //    productElement.Descendants(PRODUCTID).FirstOrDefault(p => p.Value.Equals(id)).Parent.Remove();
+    //    productElement.Save(PATH);
+    //}
     public void Delete(int id)
     {
         XElement productElement = XElement.Load(PATH);
-        productElement.Descendants(PRODUCTID).FirstOrDefault(p => p.Value.Equals(id)).Parent.Remove();
+        var elementToDelete = productElement
+            .Descendants(PRODUCTID)
+            .FirstOrDefault(p => p.Value == id.ToString());
+
+        if (elementToDelete == null)
+            throw new Exception($"Product with ID {id} not found.");
+
+        elementToDelete.Parent.Remove();
         productElement.Save(PATH);
     }
+
 
     public Product? Read(Func<Product, bool> filter)
     {

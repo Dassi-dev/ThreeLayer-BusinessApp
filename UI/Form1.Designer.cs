@@ -40,10 +40,10 @@
             label1.BackColor = Color.Transparent;
             label1.Font = new Font("Segoe UI", 18F, FontStyle.Bold);
             label1.ForeColor = Color.IndianRed;
-            label1.Location = new Point(312, 105);
-            label1.Margin = new Padding(4, 0, 4, 0);
+            label1.Location = new Point(507, 168);
+            label1.Margin = new Padding(6, 0, 6, 0);
             label1.Name = "label1";
-            label1.Size = new Size(320, 41);
+            label1.Size = new Size(515, 65);
             label1.TabIndex = 0;
             label1.Text = "Welcome to our store";
             // 
@@ -51,10 +51,10 @@
             // 
             managementButton.BackColor = Color.SeaShell;
             managementButton.Font = new Font("Segoe UI", 11.25F);
-            managementButton.Location = new Point(347, 207);
-            managementButton.Margin = new Padding(4, 4, 4, 4);
+            managementButton.Location = new Point(564, 331);
+            managementButton.Margin = new Padding(6, 6, 6, 6);
             managementButton.Name = "managementButton";
-            managementButton.Size = new Size(260, 74);
+            managementButton.Size = new Size(422, 118);
             managementButton.TabIndex = 1;
             managementButton.Text = "management";
             managementButton.UseVisualStyleBackColor = false;
@@ -64,25 +64,26 @@
             // 
             cashierButton.BackColor = Color.SeaShell;
             cashierButton.Font = new Font("Segoe UI", 11.25F);
-            cashierButton.Location = new Point(347, 339);
-            cashierButton.Margin = new Padding(4, 4, 4, 4);
+            cashierButton.Location = new Point(564, 542);
+            cashierButton.Margin = new Padding(6, 6, 6, 6);
             cashierButton.Name = "cashierButton";
-            cashierButton.Size = new Size(255, 74);
+            cashierButton.Size = new Size(414, 118);
             cashierButton.TabIndex = 2;
             cashierButton.Text = "cashier";
             cashierButton.UseVisualStyleBackColor = false;
+            cashierButton.Click += cashierButton_Click;
             // 
             // Form1
             // 
-            AutoScaleDimensions = new SizeF(8F, 20F);
+            AutoScaleDimensions = new SizeF(13F, 32F);
             AutoScaleMode = AutoScaleMode.Font;
             BackgroundImage = (Image)resources.GetObject("$this.BackgroundImage");
             BackgroundImageLayout = ImageLayout.Stretch;
-            ClientSize = new Size(914, 600);
+            ClientSize = new Size(1485, 960);
             Controls.Add(cashierButton);
             Controls.Add(managementButton);
             Controls.Add(label1);
-            Margin = new Padding(4, 4, 4, 4);
+            Margin = new Padding(6, 6, 6, 6);
             Name = "Form1";
             Text = "Form1";
             Load += Form1_Load;

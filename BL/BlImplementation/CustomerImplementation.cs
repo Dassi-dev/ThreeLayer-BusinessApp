@@ -49,26 +49,44 @@ internal class CustomerImplementation : ICustomer
     {
         try
         {
-            return _dal.Customer.Read(c=>filter(c.Convert())).Convert();
+            return _dal.Customer.Read(c => filter(c.Convert())).Convert();
         }
         catch (Exception ex)
         {
-            throw new BlArgumentNullException("Argument Null", ex);
+            throw new BlArgumentNullException("Error while reading customer", ex);
         }
     }
 
+
+    //public Customer? Read(int id)
+    //{
+    //    try
+    //    {
+    //        return _dal.Customer.Read(id).Convert();
+
+    //    }
+    //    catch (Exception ex)
+    //    {
+    //        throw new BlArgumentNullException("Argument Null", ex);
+    //    }
+    //}
     public Customer? Read(int id)
     {
         try
         {
-            return _dal.Customer.Read(id).Convert();
+            var dalCustomer = _dal.Customer.Read(id);
 
+            if (dalCustomer == null)
+                return null;
+
+            return dalCustomer.Convert();
         }
         catch (Exception ex)
         {
             throw new BlArgumentNullException("Argument Null", ex);
         }
     }
+
 
     public List<BO.Customer?> ReadAll(Func<BO.Customer, bool>? filter = null)
     {
