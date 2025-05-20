@@ -22,6 +22,8 @@ namespace UI
             InitializeComponent();
             bl = Factory.Get();
             FillShowProductsIDComboBox();
+            salesDataGridView.Visible = false;
+            currentOrderStatusdataGridView.Visible = false;
         }
 
         private void doOrderButton_Click(object sender, EventArgs e)
